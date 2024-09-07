@@ -1,0 +1,7 @@
+#include "../Include/arm.h"
+#include "../Include/colorSensor.h"
+#include "../Include/def.h"
+#include "../Include/gyro.h"
+#include "../Include/motor.h"
+#include "../Include/system.h"
+#include "../Include/objectMove.h"

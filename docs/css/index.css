@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    width: 100%;
+}
+
+.section {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.video_area {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video_area > div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.video_area > div > video {
+    height: 200px;
+    vertical-align: top;
+}
+
+.video_area > div > p {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.img_area {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.note {
+    margin: 0;
+}
+
+.img_area > div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img_area > div > a {
+    color: black;
+    height: 260px;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img_area > div > a:hover {
+    text-decoration: underline;
+}
+
+.img_area > div > a >img {
+    height: 200px;
+    vertical-align: top;
+}
+
+.img_area > div > a > p {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
